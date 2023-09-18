@@ -1,0 +1,133 @@
+body {
+    background-color: #F0F0F0;
+}
+
+p {
+    font-family: Arial;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.price-grid {
+    max-width: 640px;
+    min-height: 480px;
+    margin: 30px auto 0 auto;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.top-container {
+    min-height: 220px;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    overflow: auto;
+}
+
+.bottom-left, .bottom-right {
+    width: 50%;
+    min-height: 260px;
+    float: left;
+    color:white;
+}
+
+.bottom-left {
+    background-color: #2BB3B1;
+    border-radius: 0 0 0 10px;
+}
+
+.bottom-right {
+    background-color: #4ABEBD;
+    border-radius: 0 0 10px 0;
+}
+
+.title {
+    color: #2BB3B1;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.subtitle {
+    color: #BFDF32;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.description {
+    color: rgb(185, 185, 185);
+    font-weight: bold;
+    line-height: 28px;
+    margin-top: 12px;
+}
+
+.left-title {
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.price {
+    margin-top: 16px;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.per-month {
+    font-size: 15px;
+    vertical-align: middle;
+    opacity: .6;
+    margin-left: 5px;
+    position: relative;
+    bottom: 2px;
+}
+
+.left-description {
+    margin-top: 10px;
+    opacity: .8;
+}
+
+.sign-up-button {
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #BFDF32;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    height: 50px;
+    font-size: 18px;
+    box-shadow: 0 5px 20px #155a59;
+    transition: background-color .15s;
+}
+
+.sign-up-button:hover {
+    background-color: #a8c42d;
+}
+
+.sign-up-button:active {
+    background-color: #98b128;
+}
+
+.title-right {
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.description-right {
+    line-height: 22px;
+    font-size: 14px;
+    opacity: .6;
+}
+
+@media (max-width: 660px) {
+    .bottom-left, .bottom-right {
+        display:block;
+        width: 100%;
+        border-radius: 0;
+    }
+}
